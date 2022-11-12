@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/include/boost/compatibility/cpp_c_headers"
+            ],
+            "defines": [
+                "SQUAREMATRIX_T=CudaSquareMatrix",
+                "SPECVECTOR_T=CudaSpecVector",
+                "IMPLEMENTATION_INCLUDE=\"cudasparsemat.cuh\""
+            ],
+            "compilerPath": "/usr/local/cuda/bin/nvcc",
+            "cStandard": "c89",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
